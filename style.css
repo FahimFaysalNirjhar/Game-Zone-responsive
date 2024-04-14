@@ -224,6 +224,61 @@ nav {
     font-weight: 700;
     line-height: 45px;
 }
-.gamer{
+
+.gamer {
     background-image: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+/* video related styles */
+.video-text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.video-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.video-linear-gradient-text {
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.video-para {
+    color: #534C64;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.video-card-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.video-img {
+    width: 320px;
+    object-fit: cover;
+}
+
+.video-card-para {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 30px;
+    width: 342px;
+}
+.video-container{
+    max-width: 1400px;
+    margin: auto;
 }
