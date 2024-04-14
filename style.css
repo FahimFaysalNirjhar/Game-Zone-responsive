@@ -1,0 +1,87 @@
+/* common shared styles */
+body {
+    font-family: "Work Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* nav related styles */
+nav{
+    max-width: 1400px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-img-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-img {
+    width: 86px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.nav-title {
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.nav-color-text {
+    background-image: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-ul-1 ul {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-ul-2 ul {
+    display: flex;
+    gap: 32px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px 25px;
+}
+
+.nav-menu ul li {
+    list-style: none;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.nav-menu li a .fa-youtube{
+    color: #F61C0D;
+    font-size: 1.5rem;
+}
+.nav-menu li a .fa-tiktok{
+    color: transparent;
+    /* text-shadow: .2px .2px .2px #08FFF9; */
+    background-image: linear-gradient(#08FFf9, black, #F00044);
+    -webkit-background-clip: text;
+    font-size: 1.5rem;
+}
