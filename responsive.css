@@ -34,4 +34,24 @@
     margin-right: 5px;
     margin-bottom: 20px;
    }
+   .gamer-container{
+    flex-direction: column;
+    gap: 20px;
+   }
+   .gamer-img{
+    width: 100%;
+   }
+   .gamer-title{
+    text-align: center;
+   }
+   .gamer-para{
+    text-align: center;
+   }
+   .btn-gamer{
+    text-align: center;
+   }
+   .gamer-text{
+    text-align: center;
+   }
+
 }

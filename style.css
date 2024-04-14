@@ -118,9 +118,11 @@ nav {
     font-weight: 500;
     margin-top: 20px;
 }
-.fa-user-group{
+
+.fa-user-group {
     margin-bottom: 30px;
 }
+
 .btn-pink {
     padding: 21px 40px;
     border-radius: 48px;
@@ -130,6 +132,7 @@ nav {
     font-size: 1.3rem;
     font-weight: 600;
     margin-right: 20px;
+    text-transform: uppercase;
 }
 
 .btn-blue {
@@ -142,26 +145,85 @@ nav {
     border: 0;
 }
 
-.banner-container{
+.banner-container {
     max-width: 1400px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-.banner{
+
+.banner {
     background-image: url('images/Group 14.png');
     background-repeat: no-repeat;
     background-position: top left;
 
 }
-.fa-circle-play{
+
+.fa-circle-play {
     color: #FF42A5;
-    
-}
-.fa-download{
-    color:#FF42A5;
+
 }
 
-.banner-content{
+.fa-download {
+    color: #FF42A5;
+}
+
+.banner-content {
     align-content: center;
+}
+
+/* gamer related styles */
+.gamer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    max-width: 1400px;
+}
+
+.gamer-img {
+    /* width: 100%; */
+    object-fit: cover;
+}
+
+.gamer-title {
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+}
+
+.gamer-para {
+    color: #534C64;
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 520px;
+}
+
+.btn-gamer {
+    text-align: right;
+}
+
+.gamer-text {
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.span-gamer-text {
+    color: #534C64;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 45px;
+}
+.gamer{
+    background-image: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
 }
