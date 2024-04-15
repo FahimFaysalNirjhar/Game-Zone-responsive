@@ -249,8 +249,14 @@
     .career-container img{
         width: 100%;
     }
+    footer{
+        margin: 0;
+        padding: 0;
+    }
     .career{
         text-align: center;
     }
-
+    .social-links, .footer-policy ul{
+        gap: 30px;
+    }
 }
