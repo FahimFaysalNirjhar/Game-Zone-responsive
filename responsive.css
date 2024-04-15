@@ -1,3 +1,103 @@
+/* @media  and (max-width:540px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-ul-1 ul {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .nav-ul-2 {
+        flex-direction: column;
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-container img {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .banner-text {
+        font-size: 2rem;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .btn-pink {
+        margin-right: 5px;
+        margin-bottom: 20px;
+    }
+
+    .gamer-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .gamer-img {
+        width: 100%;
+    }
+
+    .gamer-title {
+        text-align: center;
+    }
+
+    .gamer-para {
+        text-align: center;
+    }
+
+    .btn-gamer {
+        text-align: center;
+    }
+
+    .gamer-text {
+        text-align: center;
+    }
+
+    .video-card-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .play-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .play-img-container{
+        text-align: center;
+       
+    }
+    .play-img img{
+        width: 80%;
+        object-fit: cover;
+    }
+    .img-relative img{
+        width: 40%;
+        object-fit: cover;
+    }
+    .img-relative{
+        position: relative;
+        bottom: 100px;
+        right: 50px;
+    }
+} */
+
+
 @media screen and (max-width:992px) {
     .nav-container {
         flex-direction: column;
@@ -73,6 +173,27 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .play-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .play-img-container{
+        text-align: center;
+       
+    }
+    .play-img img{
+        width: 80%;
+        object-fit: cover;
+    }
+    .img-relative img{
+        width: 40%;
+        object-fit: cover;
+    }
+    .img-relative{
+        position: relative;
+        bottom: 150px;
+        right: 110px;
     }
 
 }
